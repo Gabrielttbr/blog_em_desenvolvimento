@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('navbar_category', function (Blueprint $table) {
-            $table->string('id')->primary();
-            $table->string('name','15');
+        Schema::create('navbar_categories', function (Blueprint $table) {
+            $table->id();
+            $table->string('name','25');
             $table->timestamps();
         });
     }

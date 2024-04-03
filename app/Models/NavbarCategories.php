@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Concerns\HasUlids;
 
-class NavbarCategory extends Model
+class NavbarCategories extends Model
 {
     use HasFactory, HasUlids;
     
-    protected $table = 'navbar_category';
+    protected $table = 'navbar_categories';
 }

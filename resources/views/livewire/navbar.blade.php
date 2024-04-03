@@ -1,22 +1,40 @@
 <div class="max-w-full">
     <header>
-        <nav class="bg-custom-black flex flex-col justify-center items-center">
-            <div class="max-w-screen-xl w-full flex justify-around items-center m-auto  min-h-9 h-full ">
-                <div class="flex justify-center items-center p-0 m-0">
+        <div id="anside-menu" class="bg-white w-9/12 sm:w-4/12 min-h-lvh h-full fixed left-0 z-40 lg:hidden shadow-xl hidden justify-start flex-col items-end">
+            <svg viewBox="0 0 24 24" width="32" height="62" fill="#0000" xmlns="http://www.w3.org/2000/svg" onclick="hideMenu()">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z"
+                          fill="#0F1729" data-darkreader-inline-fill=""
+                          style="--darkreader-inline-fill: #0c1221;"></path>
+                </g>
+            </svg>
+            <ul class="list-none lg:flex justify-center items-start flex-col self-start">
+                @foreach ($navbarCategory as $category)
+                    <li class="uppercase text-black pl-8 font-roboto font-bold shadow-2xl my-1.5"> {{$category->name}}</li>
+                @endforeach
+            </ul>
+        </div>
+        <nav class="bg-custom-black flex flex-col justify-center items-center z-30">
+            <div class="sm:max-w-screen-xl w-full flex sm:justify-around justify-between items-center m-auto  min-h-9 h-full ">
+                <div class="flex justify-center items-center sm:p-0 sm:m-0 mx-2.5">
                     <h1 class="text-lg text-white font-bebasNeue">EM DESENVOLVIMENTO</h1>
                 </div>
                 <div class="lg:max-w-xl sm:max-w-sm w-full hidden justify-center justify-end items-center sm:flex ">
                     <div class="bg-custom-gray h-full  w-full justify-center items-center flex ">
                         <p class="text-custom-dark-gray">O que você esta procurando?</p>
                     </div>
-                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="p-0 m-0 relative right-5 fill-black" fill="black">
+                    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                         class="p-0 m-0 relative right-5 fill-black" fill="black">
                         <path class="p-0 m-0 fill-black "
                               d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z"
-                               />
+                        />
                     </svg>
                 </div>
                 {{--LINKS MENU --}}
-                <ul class="flex justify-center items-center">
+                <ul class="flex justify-center items-center sm:p-0 sm:m-0 mx-2.5">
                     <li class="px-2">
                         <a href="https://www.linkedin.com/in/cavalcantecarlosgabriel/">
                             <svg width="23" height="24" viewBox="0 0 23 24" fill="none"
@@ -46,23 +64,46 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-4/5 flex justify-center justify-end items-center sm:hidden ">
-                <div class="bg-custom-gray h-full  w-full justify-center items-center flex ">
+            <div class="w-full flex justify-center justify-end items-center sm:hidden">
+                <div class="bg-custom-gray h-full w-full justify-center items-center flex m-2.5 p-1">
                     <p class="text-custom-dark-gray">O que você esta procurando?</p>
                 </div>
-                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="p-0 m-0 relative right-5 fill-black" fill="black">
+                <svg width="19" height="19" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                     class="p-0 m-0 relative right-7 fill-black" fill="black">
                     <path class="p-0 m-0 fill-black "
                           d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z"
                     />
                 </svg>
             </div>
         </nav>
-        <nav>
-            <ul class="list-none flex">
-                @foreach ($navbarCategory as $category)
-                    <li class="p-3 uppercase text-lg"> {{$category->name}}</li>
-                @endforeach
-            </ul>
+        <nav class="min-h-8 h-full w-full shadow-lg flex justify-center items-center z-30">
+            <div class="sm:max-w-screen-xl w-full flex lg:justify-around justify-end items-center">
+
+                <ul class="list-none lg:flex hidden justify-center items-start   ">
+                    @foreach ($navbarCategory as $category)
+                        <li class="uppercase text-black pl-8 font-roboto font-bold shadow-2xl"> {{$category->name}}</li>
+                    @endforeach
+                </ul>
+                <div class="lg:hidden flex flex-col p-0 m-0 relative w-full m-2.5" onclick="showMenu()">
+                    <div class="w-9 h-1 m-1 bg-black"></div>
+                    <div class="w-9 h-1 m-1 bg-black"></div>
+                    <div class="w-9 h-1 m-1 bg-black"></div>
+                </div>
+
+            </div>
         </nav>
     </header>
 </div>
+<script>
+    const modalMenu = document.getElementById('anside-menu');
+
+    const showMenu = () => {
+        modalMenu.classList.remove('hidden');
+        modalMenu.classList.add('flex');
+    }
+
+    const hideMenu = () => {
+        modalMenu.classList.remove('flex');
+        modalMenu.classList.add('hidden');
+    }
+</script>

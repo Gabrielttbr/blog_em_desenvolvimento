@@ -2,7 +2,7 @@
 
 namespace App\Livewire;
 
-use App\Models\NavbarCategory;
+use App\Models\NavbarCategories;
 use Livewire\Component;
 
 class Navbar extends Component
@@ -16,7 +16,7 @@ class Navbar extends Component
     //Inicia propriedades do livewire
     public function mount()
     {
-        $this->navbarCategory = NavbarCategory::all();
+        $this->navbarCategory = NavbarCategories::all();
     }
     
 }
