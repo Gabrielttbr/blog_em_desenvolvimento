@@ -13,7 +13,7 @@
             </svg>
             <ul class="list-none lg:flex justify-center items-start flex-col self-start">
                 @foreach ($navbarCategory as $category)
-                    <li class="uppercase text-black pl-8 font-roboto font-bold shadow-2xl my-1.5"> {{$category->name}}</li>
+                    <li class="uppercase hover:underline text-black pl-8 font-roboto font-bold shadow-2xl my-1.5"> {{$category->name}}</li>
                 @endforeach
             </ul>
         </div>
@@ -83,7 +83,7 @@
 
                 <ul class="list-none lg:flex hidden justify-center items-start   ">
                     @foreach ($navbarCategory as $category)
-                        <li class="uppercase text-black pl-8 font-roboto font-bold shadow-2xl"> {{$category->name}}</li>
+                        <li class="uppercase hover:underline text-black pl-8 font-roboto font-bold shadow-2xl"> {{$category->name}}</li>
                     @endforeach
                 </ul>
                 <div class="lg:hidden flex flex-col p-0  relative w-full m-1.5" onclick="showMenu()">
