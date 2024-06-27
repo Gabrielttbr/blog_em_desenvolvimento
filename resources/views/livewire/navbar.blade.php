@@ -86,10 +86,10 @@
                         <li class="uppercase text-black pl-8 font-roboto font-bold shadow-2xl"> {{$category->name}}</li>
                     @endforeach
                 </ul>
-                <div class="lg:hidden flex flex-col p-0 m-0 relative w-full m-2.5" onclick="showMenu()">
-                    <div class="w-9 h-1 m-1 bg-black"></div>
-                    <div class="w-9 h-1 m-1 bg-black"></div>
-                    <div class="w-9 h-1 m-1 bg-black"></div>
+                <div class="lg:hidden flex flex-col p-0  relative w-full m-1.5" onclick="showMenu()">
+                    <div class="w-9 h-[3px] m-[3px] bg-black"></div>
+                    <div class="w-9 h-[3px] m-[3px] bg-black"></div>
+                    <div class="w-9 h-[3px] m-[3px] bg-black"></div>
                 </div>
 
             </div>
