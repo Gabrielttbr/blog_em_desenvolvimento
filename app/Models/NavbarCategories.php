@@ -11,4 +11,11 @@ class NavbarCategories extends Model
     use HasFactory, HasUlids;
     
     protected $table = 'navbar_categories';
+
+    protected $fillable = [
+        'id',
+        'name',
+        'created_at',
+        'updated_at'
+    ];
 }

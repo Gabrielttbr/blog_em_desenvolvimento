@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('navbar_categories', function (Blueprint $table) {
-            $table->id();
+            $table->id()->primary()->unique();
             $table->string('name','25');
             $table->timestamps();
         });
