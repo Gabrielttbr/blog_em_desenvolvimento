@@ -7,18 +7,24 @@
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                    <a class="absolute hover:underline top-64 z-30 text-white font-semibold text-2xl m-2 self-end h-full"
+                        href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                    <a class="absolute hover:underline top-64 z-30 text-white font-semibold text-2xl m-2 self-end h-full"
+                        href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                    <a class="absolute hover:underline top-64 z-30 text-white font-semibold text-2xl m-2 self-end h-full"
+                        href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
             </div>
             <!-- Slider indicators -->
