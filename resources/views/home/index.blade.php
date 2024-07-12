@@ -79,7 +79,7 @@
            <div class="md:h-[20%] md:w-[97%] m-3.5 lg:h-[48%]">
                 <div class="mx-auto max-w-screen-xl text-center relative">
                     <img src="{{ asset('imgs/what_is_important_automated_test.png') }}"
-                        alt="Como e a rotina de um desenvolvedor" class="w-full md:h-64 md:mt-11 lg:h-[186px] z-10">
+                        alt="Como e a rotina de um desenvolvedor" class="w-full md:h-64 md:mt-20 lg:mt-0 lg:h-[186px] z-10">
                     <a
                         class="absolute md:top-56 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl black:text-white z-20 hover:underline">
                         We invest in the world’s potential
