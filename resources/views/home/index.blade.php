@@ -75,7 +75,7 @@
                     <img src="{{ asset('imgs/what_is_important_automated_test.png') }}"
                         alt="Como e a rotina de um desenvolvedor" class="w-full h-full lg:h-[186px] z-10 md:h-64 ">
                     <a
-                        class="absolute md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl z-20 hover:underline">
+                        class="absolute top-28 text-xl sm:text-2xl sm:top-48 md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl z-20 hover:underline">
                         We invest in the world’s potential
                     </a>
                 </div>
@@ -87,7 +87,7 @@
                         alt="Como e a rotina de um desenvolvedor"
                         class="w-full md:h-64 md:mt-20 lg:mt-0 lg:h-[186px] z-10">
                     <a
-                        class="absolute md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl z-20 hover:underline">
+                        class="absolute top-28 text-xl sm:text-2xl sm:top-48  lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl z-20 hover:underline">
                         We invest in the world’s potential
                     </a>
                 </div>
