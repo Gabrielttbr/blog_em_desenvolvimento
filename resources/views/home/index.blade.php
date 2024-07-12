@@ -1,8 +1,8 @@
 <x-layout>
     <livewire:navbar />
-    <main class="md:max-h-96 h-full flex flex-col md:max-w-6xl m-auto md:flex md:flex-row">
+    <main class="lg:max-h-96 h-full flex flex-col lg:max-w-6xl m-auto md:flex lg:flex-row">
         {{-- Carousel --}}
-        <div id="default-carousel" class="relative m-3.5 md:w-6/12 lg:h-full lg:pb-10"data-carousel="slide">
+        <div id="default-carousel" class="relative m-3.5 lg:w-6/12 lg:h-full lg:pb-10"data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
@@ -35,7 +35,6 @@
                     data-carousel-slide-to="1"></button>
                 <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
                     data-carousel-slide-to="2"></button>
-
             </div>
             <!-- Slider controls -->
             <button type="button"
@@ -66,22 +65,26 @@
             </button>
         </div>
         {{-- Banners --}}
-        <div class="md:w-6/12 md:self-end md:h-full">
-            <div class="bg-black h-40 md:h-2/4 md:w-full m-3.5 lg:h-[48%]">
-                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-                    <h2
-                        class="mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-5xl  dark:text-white">
-                        We invest in the world’s potential</h2>
+        <div class="lg:w-6/12 md:self-center lg:self-end md:h-full md:w-full">
+            <div class=" md:h-2/6 md:w-[97%] m-3.5 lg:h-[48%]">
+                <div class="mx-auto max-w-screen-xl text-center relative">
+                    <img src="{{ asset('imgs/what_is_important_automated_test.png') }}"
+                        alt="Como e a rotina de um desenvolvedor" class="w-full h-full lg:h-[186px] z-10 md:h-64 ">
+                    <a
+                        class="absolute md:top-56 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl black:text-white z-20 hover:underline">
+                        We invest in the world’s potential
+                    </a>
                 </div>
-                </section>
             </div>
-            <div class="bg-black h-40 md:h-2/4 md:w-full m-3.5 lg:h-[48%]">
-                <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-                    <h2
-                        class="mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-5xl  dark:text-white">
-                        We invest in the world’s potential</h2>
+           <div class="md:h-[20%] md:w-[97%] m-3.5 lg:h-[48%]">
+                <div class="mx-auto max-w-screen-xl text-center relative">
+                    <img src="{{ asset('imgs/what_is_important_automated_test.png') }}"
+                        alt="Como e a rotina de um desenvolvedor" class="w-full md:h-64 md:mt-11 lg:h-[186px] z-10">
+                    <a
+                        class="absolute md:top-56 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl black:text-white z-20 hover:underline">
+                        We invest in the world’s potential
+                    </a>
                 </div>
-                </section>
             </div>
         </div>
     </main>
