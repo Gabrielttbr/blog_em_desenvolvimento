@@ -4,26 +4,29 @@
         {{-- Carousel --}}
         <div id="default-carousel" class="relative m-3.5 lg:w-6/12 lg:h-full lg:pb-10"data-carousel="slide">
             <!-- Carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="relative h-72 sm:h-96 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <div class="w-full h-full bg-black/40 absolute z-10"></div>
                     <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
                         class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                    <a class="absolute hover:underline top-64 z-30 text-white font-semibold text-2xl m-2 self-end h-full"
+                    <a class="absolute hover:underline top-44 text-lg sm:top-64 z-30 text-white font-semibold sm:text-2xl m-2 self-end h-full"
                         href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <div class="w-full h-full bg-black/40 absolute z-10"></div>
                     <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
                         class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                    <a class="absolute hover:underline top-64 z-30 text-white font-semibold text-2xl m-2 self-end h-full"
+                    <a class="absolute hover:underline top-44 text-lg sm:top-64 z-30 text-white font-semibold sm:text-2xl m-2 self-end h-full"
                         href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <div class="w-full h-full bg-black/40 absolute z-10"></div>
                     <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
                         class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                    <a class="absolute hover:underline top-64 z-30 text-white font-semibold text-2xl m-2 self-end h-full"
+                    <a class="absolute hover:underline top-44 text-lg sm:top-64 z-30 text-white font-semibold sm:text-2xl m-2 self-end h-full"
                         href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
             </div>
@@ -68,20 +71,23 @@
         <div class="lg:w-6/12 md:self-center lg:self-end md:h-full md:w-full">
             <div class=" md:h-2/6 md:w-[97%] m-3.5 lg:h-[48%]">
                 <div class="mx-auto max-w-screen-xl text-center relative">
+                    <div class="w-full h-full bg-black/40 absolute"></div>
                     <img src="{{ asset('imgs/what_is_important_automated_test.png') }}"
                         alt="Como e a rotina de um desenvolvedor" class="w-full h-full lg:h-[186px] z-10 md:h-64 ">
                     <a
-                        class="absolute md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl black:text-white z-20 hover:underline">
+                        class="absolute md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl z-20 hover:underline">
                         We invest in the world’s potential
                     </a>
                 </div>
             </div>
-           <div class="md:h-[20%] md:w-[97%] m-3.5 lg:h-[48%]">
+            <div class="md:h-[20%] md:w-[97%] m-3.5 lg:h-[48%]">
                 <div class="mx-auto max-w-screen-xl text-center relative">
+                    <div class="w-full h-full bg-black/40 absolute"></div>
                     <img src="{{ asset('imgs/what_is_important_automated_test.png') }}"
-                        alt="Como e a rotina de um desenvolvedor" class="w-full md:h-64 md:mt-20 lg:mt-0 lg:h-[186px] z-10">
+                        alt="Como e a rotina de um desenvolvedor"
+                        class="w-full md:h-64 md:mt-20 lg:mt-0 lg:h-[186px] z-10">
                     <a
-                        class="absolute md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl black:text-white z-20 hover:underline">
+                        class="absolute md:top-52 lg:top-32 left-2 mb-4 xl:text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl z-20 hover:underline">
                         We invest in the world’s potential
                     </a>
                 </div>
