@@ -95,7 +95,6 @@
         </nav>
         <nav class="min-h-8 h-full w-full shadow-lg flex justify-center items-center z-30">
             <div class="sm:max-w-screen-xl w-full flex lg:justify-around justify-end items-center">
-
                 <ul class="list-none lg:flex hidden justify-center items-start   ">
                     @foreach ($navbarCategory as $category)
                         <li class="uppercase hover:underline text-black pl-8 font-roboto font-bold shadow-2xl"> {{$category->name}}</li>
@@ -106,7 +105,6 @@
                     <div class="w-9 h-[3px] m-[3px] bg-black"></div>
                     <div class="w-9 h-[3px] m-[3px] bg-black"></div>
                 </div>
-
             </div>
         </nav>
     </header>
@@ -123,5 +121,4 @@
         modalMenu.classList.remove('flex');
         modalMenu.classList.add('hidden');
     }
-    
 </script>

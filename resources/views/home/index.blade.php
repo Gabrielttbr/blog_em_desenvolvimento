@@ -94,15 +94,18 @@
             </div>
         </div>
     </main>
-    <section class="flex items-center flex-col md:w-full">
-        <div class="m-4">
-            <livewire:card class="w-full" />
+    <section class="flex items-center flex-col md:max-w-6xl md:flex-row md:m-auto">
+        <div class="m-4 md:mt-10">
+            <livewire:card class="w-full"/>
         </div>
-        <div class="m-4">
+        <div class="m-4 md:mt-10">
             <livewire:card />
         </div>
-        <div class="m-4">
+        <div class="m-4 md:mt-10">
             <livewire:card />
         </div>
     </section>
+    <footer>
+        <livewire:footer />
+    </footer>
 </x-layout>
