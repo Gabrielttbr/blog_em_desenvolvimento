@@ -94,7 +94,7 @@
             </div>
         </div>
     </main>
-    <section class="flex items-center flex-col md:max-w-6xl md:flex-row md:m-auto">
+    <section class="flex items-center flex-col md:max-w-6xl md:flex-row md:mt-96 lg:m-auto ">
         <div class="m-4 md:mt-10">
             <livewire:card class="w-full"/>
         </div>
