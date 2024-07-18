@@ -18,5 +18,4 @@ class Navbar extends Component
     {
         $this->navbarCategory = NavbarCategories::all();
     }
-    
 }

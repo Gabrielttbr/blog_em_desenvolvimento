@@ -1,6 +1,6 @@
 <x-layout>
     <livewire:navbar />
-    <main class="lg:max-h-96 h-full flex flex-col lg:max-w-6xl m-auto md:flex lg:flex-row">
+    <main class="lg:max-h-96 md:h-full flex flex-col lg:max-w-6xl m-auto md:flex lg:flex-row">
         {{-- Carousel --}}
         <div id="default-carousel" class="relative m-3.5 lg:w-6/12 lg:h-full lg:pb-10"data-carousel="slide">
             <!-- Carousel wrapper -->
@@ -94,4 +94,15 @@
             </div>
         </div>
     </main>
+    <section class="flex items-center flex-col md:w-full">
+        <div class="m-4">
+            <livewire:card class="w-full" />
+        </div>
+        <div class="m-4">
+            <livewire:card />
+        </div>
+        <div class="m-4">
+            <livewire:card />
+        </div>
+    </section>
 </x-layout>
