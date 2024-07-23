@@ -1,6 +1,6 @@
-<x-layout>
+<x-layout class="h-screen">
     <livewire:navbar />
-    <main class="lg:max-h-96 md:h-full flex flex-col lg:max-w-6xl m-auto md:flex lg:flex-row">
+    <main class="lg:max-h-96 md:h-full flex flex-col lg:max-w-6xl m-auto md:flex lg:flex-row z-30">
         {{-- Carousel --}}
         <div id="default-carousel" class="relative m-3.5 lg:w-6/12 lg:h-full lg:pb-10"data-carousel="slide">
             <!-- Carousel wrapper -->
@@ -25,7 +25,7 @@
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <div class="w-full h-full bg-black/40 absolute z-10"></div>
                     <img src="{{ asset('imgs/impact-ia.png') }}" alt="Inteligência Artifical"
-                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                        class="absobloclute k w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                     <a class="absolute hover:underline top-44 text-lg sm:top-64 z-30 text-white font-semibold sm:text-2xl m-2 self-end h-full"
                         href="#">Como a inteligência artificial pode aumentar sua produtividade?</a>
                 </div>
@@ -68,7 +68,7 @@
             </button>
         </div>
         {{-- Banners --}}
-        <div class="lg:w-6/12 md:self-center lg:self-end md:h-full md:w-full">
+        <div class="lg:w-6/12 md:self-center lg:self-end md:h-full md:w-full z-10">
             <div class=" md:h-2/6 md:w-[97%] m-3.5 lg:h-[48%]">
                 <div class="mx-auto max-w-screen-xl text-center relative">
                     <div class="w-full h-full bg-black/40 absolute"></div>
@@ -94,9 +94,9 @@
             </div>
         </div>
     </main>
-    <section class="flex items-center flex-col md:max-w-6xl md:flex-row md:mt-96 lg:m-auto ">
+    <section class="flex items-center flex-col md:max-w-6xl md:flex-row md:mt-96 lg:m-auto z-10">
         <div class="m-4 md:mt-10">
-            <livewire:card class="w-full"/>
+            <livewire:card class="w-full" />
         </div>
         <div class="m-4 md:mt-10">
             <livewire:card />
